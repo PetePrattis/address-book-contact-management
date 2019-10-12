@@ -12,14 +12,14 @@ and is one of a few such simple java programms neccessary to pass the class_
 
 > #### Functionality
 >
-> [x] Print all available contacts
-> [x] Add new contact
-> [x] Search contact based on name
-> [x] Search contact based on phone number
-> [x] Edit contact based on name
-> [x] Edit contact based on phone number
-> [x] Delete contact based on name
-> [x] Delete contact based on phone number
+> 1. Print all available contacts
+> 2. Add new contact
+> 3. Search contact based on name
+> 4. Search contact based on phone number
+> 5. Edit contact based on name
+> 6. Edit contact based on phone number
+> 7. Delete contact based on name
+> 8. Delete contact based on phone number
 >
 
 > #### About this project
