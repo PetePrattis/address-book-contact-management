@@ -44,7 +44,7 @@ public class Search {
 		f1 = input.nextLine();
 		System.out.println("Give Surname: ");
 		f2 = input.nextLine();
-		File file = new File(System.getProperty("user.dir")+"/src/contacts.txt");
+		File file = new File(System.getProperty("user.dir")+"/Address_Book/src/contacts.txt");
 		BufferedReader reader = new BufferedReader(new FileReader(file));
 		String currentLine;
 		boolean first = false;
