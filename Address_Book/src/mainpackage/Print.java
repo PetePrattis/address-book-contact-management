@@ -16,7 +16,11 @@ import java.util.Scanner;
 
 public class Print extends Main{
 	public static void show_contacts() throws IOException, FileNotFoundException{
-		File file = new File(System.getProperty("user.dir")+"/src/contacts.txt");//we get the cantact file 
+		File file = new File(System.getProperty("user.dir")+"/Address_Book/src/contacts.txt");//we get the contact file 
+		System.out.println(file.getAbsolutePath());
+		System.out.println(file.getParentFile());
+		System.out.println(file.exists());
+		file.createNewFile();
 		BufferedReader reader = new BufferedReader(new FileReader(file));
 		String currentLine;
 		boolean first = false;
