@@ -79,7 +79,6 @@ public class Change {
 		for(Object str:lines){//for every contatc that i found that is a match
 			info_check(str.toString(), fields);
 		} 
-		choose_field();
 	}
 	
 	public static void number_search() throws IOException, FileNotFoundException{
@@ -175,7 +174,6 @@ public class Change {
 		for(Object str:lines){
 			info_check(str.toString(), fields);
 		} 
-		choose_field();
 	}
 	
 	public static void info_check(String line, String[] fields) throws IOException, FileNotFoundException{
