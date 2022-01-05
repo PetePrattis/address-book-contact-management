@@ -79,7 +79,6 @@ public class Search {
 		}
 		System.out.println("-------------------");
 		reader.close();
-		choose_field();
 	}
 	
 	public static void number_search() throws IOException, FileNotFoundException{
@@ -168,7 +167,7 @@ public class Search {
 		
 		System.out.println("-------------------");
 		reader.close();
-		choose_field();
+
 	}
 
 

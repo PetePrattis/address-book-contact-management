@@ -80,7 +80,7 @@ public class Delete {
 		for(Object str:lines){//for every contatc that i found that is a match
 			contact_delete(str.toString());
 		} 
-		choose_field();
+	
 	}
 	
 	public static void number_search() throws IOException, FileNotFoundException{
@@ -172,7 +172,6 @@ public class Delete {
 		
 		System.out.println("-------------------");
 		reader.close();
-		choose_field();
 	}
 	
 	public static void contact_delete(String line)  throws IOException, FileNotFoundException{
